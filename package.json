@@ -1,0 +1,17 @@
+{
+  "name": "sidebar-responsive1",
+  "version": "1.0.0",
+  "description": "A simple responsive sidebar",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm start"
+  },
+  "keywords": [
+    "sidebarR1"
+  ],
+  "author": "Jean Paul Ari Maldonado",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.53.0"
+  }
+}
