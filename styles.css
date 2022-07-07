@@ -31,4 +31,26 @@
   width: 250px;
 }
 
+.navigation .menu-toogle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #999999;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.navigation.menu-toogle::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #333;
+}
+
 /*# sourceMappingURL=styles.css.map */

@@ -6,6 +6,7 @@ $golder: #efbc45;
 $bluex: #3b48db;
 
 $cream: #f7f6f1;
+$darkgrey: #999999;
 
 
 //imports
@@ -43,4 +44,25 @@ $cream: #f7f6f1;
 }
 .navigation.open{
     width: 250px;
+}
+.navigation .menu-toogle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid $darkgrey;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.navigation.menu-toogle::before{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #333;
 }
